@@ -37,10 +37,10 @@ namespace c_sharp3
 
         static void Main(string[] args)
         {
-            Phone myHomePhone = new Phone("Nokia 3110", "88001234567");
+            Phone myHomePhone = new Phone("Nokia 3120", "89045657523");
             myHomePhone.Call("85672537414");
 
-            Smartphone myWorkPhone = new Smartphone("iPhone 13", "8800553535", 80.5);
+            Smartphone myWorkPhone = new Smartphone("iPhone 14", "88997506735", 80.5);
             myWorkPhone.Call("112");
             myWorkPhone.Shoot();
 
